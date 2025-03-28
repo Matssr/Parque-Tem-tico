@@ -70,13 +70,13 @@ main section img{
 }
 main section article{
     width: 40%;
-    height: 70vh;
+    height: 75vh;
     float: left;
-    margin-left: 6%;
+    margin-left: 4%;
     margin-top: 10vh;
 }
 main section article h1{
-    margin-top: 20vh;
+    margin-top: 0vh;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -84,10 +84,23 @@ main section article h1{
      /* margin-top: 0vh; */
      color: #000;
 }
-main section article p{
-    font-family: Arial, Helvetica, sans-serif;
+article div{
+    width: 400px;
+    height: auto;
+    background: #fffc56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article div input{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-family: sans-serif;
     font-size: 1.2em;
-    text-align: justify;
+    text-indent: 10px;
 }
 main section article button{
     width: 60%;
@@ -108,7 +121,7 @@ main footer{
     width: 100%;
     height: 6vh;
     background-color: #000;
-    margin-top: 100vh;
+    margin-top: 0vh;
 }
 main footer h3{
     text-align: center;
